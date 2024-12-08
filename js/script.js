@@ -26,6 +26,16 @@ button.addEventListener('click', () => {
     container.style.display = 'none';
 });
 
+document.addEventListener("visibilitychange", event => {
+    if (document.visibilityState === "visible") {
+        document.getElementById("my_audio").play();
+    } else {
+      const audio = document.getElementById('portal-audio');
+      audio && audio.pause();
+      document.getElementById("my_audio").pause();
+    }
+  })
+
 
 $(document).on('click', function(){
     document.getElementById("my_audio").play();

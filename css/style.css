@@ -378,7 +378,7 @@ img {
 }
 
 .overlay-button {
-	background-color: #3498db;
+	background-color: #8805a8;
 	color: white;
 	padding: 15px 30px;
 	border: none;
@@ -530,7 +530,7 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
+	background: linear-gradient(90deg, #a5525a, #ca8c92);
 }
 
 .hours {
